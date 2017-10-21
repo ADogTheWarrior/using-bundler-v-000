@@ -9,5 +9,6 @@ end
 
 group :development do
   gem "pry", group: :development
+  gem "rspec"
   #gem ['"]pry['"], ?(group:|:group ?=>) ?(:development|['"]development['"])
 end
