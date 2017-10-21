@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 group :test do
+  gem "rspec"
   gem "sinatra", '1.4.4'
   gem "hashie"
   gem "octokit", '~> 2.0'
@@ -9,6 +10,5 @@ end
 
 group :development do
   gem "pry", group: :development
-  gem "rspec"
   #gem ['"]pry['"], ?(group:|:group ?=>) ?(:development|['"]development['"])
 end
